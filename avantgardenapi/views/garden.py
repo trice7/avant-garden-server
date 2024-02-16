@@ -27,7 +27,7 @@ class GardenView(ViewSet):
     Returns -> Response -- JSON serialized list of all gardens"""
     
     gardens = Garden.objects.all()
-    serializer = GardenSerializerAll(many=True)
+    serializer = GardenSerializerAll(gardens, many=True)
     return Response(serializer.data)
   
   def create(self, request):
@@ -36,10 +36,7 @@ class GardenView(ViewSet):
     Returns -> JSON serialized garden instance with a 201 status"""
     
     user = User.objects.get(uid=request.data["uid"])
-    # name string
-    # image string
-    # user string
-    # public boolean
+    
     garden = Garden.objects.create(
       name = request.data['name'],
       image = request.data['image'],
