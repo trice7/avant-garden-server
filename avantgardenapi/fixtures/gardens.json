@@ -1,0 +1,32 @@
+[
+    {
+        "model": "avantgardenapi.garden",
+        "pk": 1,
+        "fields": {
+            "name": "Fruit Trees",
+            "image": "https://completelandscaping.com/wp-content/uploads/apple-trees.jpeg",
+            "user": 1,
+            "public": false
+        }
+    },
+    {
+        "model": "avantgardenapi.garden",
+        "pk": 2,
+        "fields": {
+            "name": "Vegetable Garden",
+            "image": "https://www.familyhandyman.com/wp-content/uploads/2023/04/GettyImages-1418173645.jpg",
+            "user": 1,
+            "public": false
+        }
+    },
+    {
+        "model": "avantgardenapi.garden",
+        "pk": 3,
+        "fields": {
+            "name": "Flower Patch",
+            "image": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/impressionist-flower-patch-gerard-harrison.jpg",
+            "user": 1,
+            "public": false
+        }
+    }
+]

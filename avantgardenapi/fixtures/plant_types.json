@@ -1,0 +1,37 @@
+[
+  {
+      "model": "avantgardenapi.planttype",
+      "pk": 1,
+      "fields": {
+          "label": "Fruit"
+      }
+  },
+  {
+      "model": "avantgardenapi.planttype",
+      "pk": 2,
+      "fields": {
+          "label": "Vegetable"
+      }
+  },
+  {
+      "model": "avantgardenapi.planttype",
+      "pk": 3,
+      "fields": {
+          "label": "Flower - Annual"
+      }
+  },
+  {
+      "model": "avantgardenapi.planttype",
+      "pk": 4,
+      "fields": {
+          "label": "Flower - Perennial"
+      }
+  },
+  {
+      "model": "avantgardenapi.planttype",
+      "pk": 5,
+      "fields": {
+          "label": "Flower - Biannual"
+      }
+  }
+]

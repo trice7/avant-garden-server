@@ -1,0 +1,49 @@
+[
+  {
+      "model": "avantgardenapi.plant",
+      "pk": 1,
+      "fields": {
+          "name": "Apple Tree",
+          "image": "https://www.plantmegreen.com/cdn/shop/files/Apple_Planning_1024x1024.jpg?v=1633974766",
+          "type": 1,
+          "description": "An apple tree is a deciduous tree belonging to the genus Malus. It typically grows between 6 to 15 meters in height and produces round or oval-shaped fruits known as apples. These trees have a spreading canopy with alternate leaves that are serrated and typically dark green in color, turning yellow or red in autumn. Apple trees bloom with fragrant white or pink flowers in spring, which eventually give way to the fruit. They are cultivated worldwide for their delicious and nutritious fruits, which come in a variety of colors, flavors, and textures, depending on the cultivar.",
+          "grow_time": "3-6 years",
+          "notes": "Careful pruning will allow the tree to bear fruit every year after maturity. Left on it's own, it may bear a large amount of fruit every other year."
+      }
+  },
+  {
+      "model": "avantgardenapi.plant",
+      "pk": 2,
+      "fields": {
+          "name": "Carrot",
+          "image": "https://miro.medium.com/v2/resize:fit:2000/format:webp/1*1pPC_efinKVk4A4h_9ecBQ.jpeg",
+          "type": 2,
+          "description": "A carrot is a root vegetable belonging to the Apiaceae family, typically known for its vibrant orange color, although it can also be found in other colors such as purple, red, yellow, and white. It has a long, tapered shape with a slightly pointed tip, although some varieties can be more stubby or round. Carrots have a crisp texture when fresh and are rich in vitamins, particularly vitamin A, as well as dietary fiber and antioxidants. They are commonly consumed raw as a snack or salad ingredient, or cooked in various dishes such as soups, stews, and stir-fries.",
+          "grow_time": "60-80 days",
+          "notes": "Can be planted in either early Spring, or late Summer - Early Autumn"
+      }
+  },
+  {
+      "model": "avantgardenapi.plant",
+      "pk": 3,
+      "fields": {
+          "name": "Rose",
+          "image": "",
+          "type": 4,
+          "description": "A rose is a woody perennial flowering plant of the genus Rosa, belonging to the Rosaceae family. Roses are renowned for their exquisite beauty and fragrance, making them one of the most beloved and widely cultivated ornamental plants worldwide. They typically feature large, showy flowers with layers of petals arranged in a spiral pattern around a central receptacle. Roses come in a wide range of colors, including shades of red, pink, white, yellow, and orange, with variations in hue, size, and form across different cultivars. The leaves of roses are usually serrated and arranged alternately along the stems. They can be climbers, shrubs, or miniature varieties, depending on the cultivar. Roses are commonly used in gardens, landscapes, floral arrangements, and various cultural and religious ceremonies, symbolizing love, beauty, and elegance.",
+          "notes": "Will have several bloom cycles throughout it's season. Typically late Spring - Mid Autumn"
+      }
+  },
+  {
+      "model": "avantgardenapi.plant",
+      "pk": 4,
+      "fields": {
+          "name": "Sunflower",
+          "image": "https://www.almanac.com/sites/default/files/styles/or/public/image_nodes/sunflower-1627193_1920.jpg?itok=td7mL8qA",
+          "type": 3,
+          "description": "A sunflower is an annual plant known for its large, daisy-like flower head, which can reach impressive sizes, sometimes exceeding 30 centimeters (12 inches) in diameter. These flowers typically have bright yellow petals surrounding a central disk filled with small florets that mature into seeds. Sunflower plants can grow quite tall, often reaching heights between 1.5 to 3.5 meters (5 to 12 feet), depending on the variety. They have rough, hairy stems and rough, heart-shaped leaves arranged alternately along the stem. Sunflowers are cultivated for their seeds, which are rich in oil and nutrients and are a popular snack or ingredient in cooking. Additionally, they are grown ornamentally in gardens for their cheerful appearance and as a source of nectar for pollinators like bees and butterflies.",
+          "grow_time": "70-100 days",
+          "notes": "Plant late Spring - Early Summer"
+      }
+  }
+]
