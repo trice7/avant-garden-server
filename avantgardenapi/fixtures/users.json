@@ -1,0 +1,11 @@
+[
+    {
+        "model": "avantgardenapi.user",
+        "pk": 1,
+        "fields": {
+            "username": "Admin",
+            "uid": 1,
+            "date_joined": "2023-12-31"
+        }
+    }
+]
