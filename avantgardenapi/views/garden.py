@@ -26,16 +26,15 @@ class GardenView(ViewSet):
     
     Returns -> Response -- JSON serialized list of all gardens"""
     
-    try:
-      uid = request.query_params['uid']
+    gardens = Garden.objects.all()
+    
+    uid = request.query_params.get('uid')
+    if uid is not None:
       user = User.objects.get(uid=uid)
       gardens = Garden.objects.filter(user=user.id)
-      serializer = GardenSerializerAll(gardens, many=True)
-      return Response(serializer.data)
-    except:
-      gardens = Garden.objects.all()
-      serializer = GardenSerializerAll(gardens, many=True)
-      return Response(serializer.data)
+    
+    serializer = GardenSerializerAll(gardens, many=True)
+    return Response(serializer.data)
   
   def create(self, request):
     """Handle POST requests for gardens
