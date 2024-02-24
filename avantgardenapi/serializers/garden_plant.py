@@ -7,4 +7,4 @@ class GardenPlantSerializer(serializers.ModelSerializer):
   class Meta:
     model = GardenPlant
     fields = ('id', 'plant', 'quantity', 'planted')
-    depth = 1
+    depth = 2
