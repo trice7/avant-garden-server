@@ -17,13 +17,14 @@ from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include
 from rest_framework import routers
-from avantgardenapi.views import GardenPlantView, GardenView, PlantTypeView, PlantView, register_user, check_user
+from avantgardenapi.views import GardenPlantView, GardenView, PlantTypeView, PlantView, register_user, check_user, CommentView
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'gardens', GardenView, 'garden')
 router.register(r'garden_plants', GardenPlantView, 'garden_plant')
 router.register(r'plants', PlantView, 'plant')
 router.register(r'plant_types', PlantTypeView, 'plant_type')
+router.register(r'comments', CommentView, 'comment')
 
 urlpatterns = [
     path('admin/', admin.site.urls),

@@ -9,7 +9,7 @@ from avantgardenapi.serializers import CommentSerializer
 class CommentView(ViewSet):
   """Avant Garden Comment View"""
   
-  def retreive(self, request, pk):
+  def retrieve(self, request, pk):
     """Handle GET requests for a single comment
     
     Returns -> Response -- JSON serialized response"""
@@ -71,5 +71,5 @@ class CommentView(ViewSet):
     
     comment = Comment.objects.get(pk=pk)
     comment.delete()
-    return Response(None, statue=status.HTTP_204_NO_CONTENT)
+    return Response(None, status=status.HTTP_204_NO_CONTENT)
     
